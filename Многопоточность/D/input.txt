@@ -1,0 +1,2 @@
+Hello world! Hello D language.
+This is a sample file, hello again.
