@@ -1,0 +1,30 @@
+company:
+  departments:
+    department:
+      - IT
+      - HR
+      - Finance
+  employees:
+    employee:
+      -
+        _attr:
+          id: 1
+        department: IT
+        name: "John Doe"
+        position: Developer
+        salary: 50000
+      -
+        _attr:
+          id: 2
+        department: HR
+        name: "Jane Smith"
+        position: Manager
+        salary: 60000
+      -
+        _attr:
+          id: 3
+        department: Finance
+        name: "Bob Johnson"
+        position: Analyst
+        salary: 55000
+  name: "Tech Solutions Inc."
