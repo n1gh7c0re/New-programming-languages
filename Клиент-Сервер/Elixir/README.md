@@ -13,7 +13,7 @@ HTTP-сервер на Plug/Cowboy читает конфигурацию из ф
 ```
 ## Как запускать
 * Убедитесь, что Elixir установлен и `server_config.json` в корне проекта.
-* Добавьте зависимости, выполните:
+* Добавьте зависимости:
   ```
   mix deps.get
   ```
@@ -30,3 +30,4 @@ HTTP-сервер на Plug/Cowboy читает конфигурацию из ф
   curl http://localhost:4000/ping
   curl -X POST -d "test body" http://localhost:4000/echo
   ```
+* Результаты в файле `requests.log`
