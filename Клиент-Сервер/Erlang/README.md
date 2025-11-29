@@ -16,8 +16,20 @@
 - **server.log** — лог всех выполненных команд и их результатов.
 
 ## Как запускать
-* Сохраните файл как `tcp_server.erl` в кодировке UTF-8 без BOM.  
-* В терминале выполните:
+* Убедитесь, что Erlang установлен и файлы `commands.txt` + `server_config.json` в корне проекта.
+* Запустите сервер:
   ```
   escript tcp_server.erl
   ```
+* Подключитесь в отдельном терминале (с помощью Python-клиента `tcp_client.py`):
+  ```
+  python tcp_client.py
+  ```
+* Тестируйте строки:
+  ```
+  > UPPER abababa
+  UPPER abababa
+  RESULT: ABABABA
+  ```
+* Для выхода введите пустую строку.
+* Результаты в файле `server.log`
