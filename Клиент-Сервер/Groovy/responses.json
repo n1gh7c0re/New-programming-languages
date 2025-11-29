@@ -1,0 +1,23 @@
+[
+    {
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "status": 201,
+        "body": "{\n  \"title\": \"Groovy Task\",\n  \"body\": \"Async HTTP requests are easy\",\n  \"userId\": 1,\n  \"id\": 101\n}",
+        "time_ms": 886,
+        "error": null
+    },
+    {
+        "url": "https://jsonplaceholder.typicode.com/posts",
+        "status": 201,
+        "body": "{\n  \"title\": \"Testing Parallelism\",\n  \"body\": \"Sending another request simultaneously\",\n  \"userId\": 2,\n  \"id\": 101\n}",
+        "time_ms": 841,
+        "error": null
+    },
+    {
+        "url": "https://reqres.in/api/users",
+        "status": 401,
+        "body": "{\"error\":\"Missing API key\"}",
+        "time_ms": 574,
+        "error": null
+    }
+]

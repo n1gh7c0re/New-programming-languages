@@ -1,0 +1,25 @@
+[
+  {
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "payload": {
+      "title": "Groovy Task",
+      "body": "Async HTTP requests are easy",
+      "userId": 1
+    }
+  },
+  {
+    "url": "https://jsonplaceholder.typicode.com/posts",
+    "payload": {
+      "title": "Testing Parallelism",
+      "body": "Sending another request simultaneously",
+      "userId": 2
+    }
+  },
+  {
+    "url": "https://reqres.in/api/users",
+    "payload": {
+      "name": "Morpheus",
+      "job": "Leader"
+    }
+  }
+]
