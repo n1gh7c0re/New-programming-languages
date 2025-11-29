@@ -1,0 +1,7 @@
+Name: Ivan Ivanov
+Phone: +7 999 123-45-67
+Email: ivan@example.com
+
+Name: Olga Petrova
+Email: olga.p@example.org
+Phone: 8 (495) 555-00-11
